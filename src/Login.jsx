@@ -2,8 +2,8 @@ import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 
 const Login = () => {
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
+  const [email, setEmail] = useState('user@example.com'); // Default email
+  const [password, setPassword] = useState('12345'); // Default password
   const [error, setError] = useState('');
   const navigate = useNavigate();
 
